@@ -1,0 +1,40 @@
+@media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+      height: 50vh !important;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+
+
+.bg-primary-dark{
+    background-color: #0031ca;
+    color:#fff;
+}
+.bg-primary{
+    background-color: #3d5afe;
+    color:#fff; 
+}
+
+.bg-secondary-dark{
+    background-color: #4d2c91;
+    color:#fff;
+}
+
+.bg-secondary{
+    background-color: #7e57c2;
+    color:#fff;
+}
+
+
+.titulo-seccion{
+    font-size: 1.6rem;
+}
+
+footer{
+    
+}

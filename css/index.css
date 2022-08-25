@@ -1,0 +1,17 @@
+section{
+    min-height: 200px;
+}
+
+#Contenido{
+    height: 200px;
+}
+
+
+.titulo-principal{
+    font-size: 3rem;
+    box-shadow: 2px 2px solid #555;
+}
+
+.titulo-secundario{
+    font-size: 2rem;
+}
