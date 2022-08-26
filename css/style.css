@@ -9,32 +9,44 @@
     color: #fff !important;
   }
 
+.nav-show{
+  
+   background: linear-gradient(45deg,
+        rgba(61, 90, 254, 0.7),
+        rgba(126, 87, 194, 0.7) 100%);
+}
 
-
-.bg-primary-dark{
+.bg-primario-dark{
     background-color: #0031ca;
     color:#fff;
 }
-.bg-primary{
+.bg-primario{
     background-color: #3d5afe;
     color:#fff; 
 }
 
-.bg-secondary-dark{
-    background-color: #4d2c91;
+.bg-primario:hover {
+  background-color: #0031ca;
+  color: #fff;
+}
+.bg-secundario-dark{
+    background-color: #E1BEE7;
     color:#fff;
 }
 
-.bg-secondary{
-    background-color: #7e57c2;
+.bg-secundario{
+    background-color: #BA68C8;
     color:#fff;
 }
 
 
 .titulo-seccion{
-    font-size: 1.6rem;
+    font-size: 3rem;
 }
 
+p{
+  font-size: 1.3rem;;
+}
 footer{
     
 }
