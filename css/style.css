@@ -35,18 +35,25 @@
 }
 
 .bg-secundario{
-    background-color: #BA68C8;
+    background-color: #5a5ee3;
     color:#fff;
 }
 
 
 .titulo-seccion{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 p{
   font-size: 1.3rem;;
 }
 footer{
-    
+ 
+    background-color: #DBE1E0;
+    color: #515151;
+    padding: 2rem 0;
 }
+
+.tarjetas-fondo div{ padding: 1em 1em 3px; margin-bottom: 1em; }
+.tarjetas-fondo div:nth-child(1){ background: #F3F9F8; }
+.tarjetas-fondo div:nth-child(2){ background: #FEEFE9; }
