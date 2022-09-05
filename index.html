@@ -31,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Información general</a>
+              <a class="nav-link" href="informacion-general.html">Información general</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Módulo 1</a>
+              <a class="nav-link" href="modulo1.html">Módulo 1</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Módulo 2</a>
@@ -617,31 +617,9 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- Custom scripts -->
-  <script type="text/javascript">
+  <script type="text/javascript" src="js/functions.js"></script>
 
-    function cambiarNavbarDependiendoDeScroll() {
-      var navbar = $('.js-pleca');
-      // var texto_tema = $('.pleca__ee');
-      if ($(window).scrollTop() > 200) {
-        navbar.addClass('fixed-top');
-        navbar.addClass('nav-show');
-        navbar.addClass('d-block');
-        navbar.removeClass('d-none');
-        // texto_tema.addClass('aparecer-desaparecer');
-      } else {
-        navbar.removeClass('fixed-top');
-        navbar.removeClass('d-block');
-        navbar.removeClass('nav-show');
-        navbar.addClass('d-none');
-        // texto_tema.removeClass('aparecer-desaparecer');
-      }
-    }
-
-    $(window).scroll(function (event) {
-      cambiarNavbarDependiendoDeScroll();
-    });
-
-  </script>
+     
 </body>
 
 </html>
