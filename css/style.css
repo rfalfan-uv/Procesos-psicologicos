@@ -1,135 +1,164 @@
 @media (min-width: 992px) {
-    #intro {
-      margin-top: -58.59px;
-      height: 50vh !important;
-    }
+  #intro {
+    margin-top: -58.59px;
+    height: 50vh !important;
   }
-
-  .navbar .nav-link {
-    color: #fff !important;
-  }
-
-.nav-show{
-  
-   background: linear-gradient(45deg,
-        rgba(61, 90, 254, 1),
-        rgba(126, 87, 194, 1) 100%);
 }
 
-.bg-primario-dark{
-    background-color: #0031ca;
-    color:#fff;
+.navbar .nav-link {
+  color: #fff !important;
 }
-.bg-primario{
-    background-color: #D81B60;
-    color:#fff; 
+
+.nav-show {
+
+  background: linear-gradient(45deg,
+      rgba(61, 90, 254, 1),
+      rgba(126, 87, 194, 1) 100%);
+}
+
+ 
+
+.bg-primario {
+  background-color: #D81B60;
+  color: #fff;
 }
 
 .bg-primario:hover {
   background-color: #F48FB1;
   color: #000;
 }
-.bg-secundario-dark{
-    background-color: #E1BEE7;
-    color:#fff;
+
+ 
+
+.bg-secundario {
+  background-color: #5E35B1;
+  color: #fff;
 }
 
-.bg-secundario{
-    background-color: #5E35B1;
-    color:#fff;
-}
-
-.bg-secundario .titulo-seccion{
-  color:#fff;
+.bg-secundario .titulo-seccion {
+  color: #fff;
 }
 
 
-.bg-temario{
+.bg-temario {
   background-color: #D1C4E9;
 }
 
-.bg-temario .titulo-seccion{
-  color:#7E57C2;
+.bg-temario .titulo-seccion {
+  color: #7E57C2;
 }
 
 
-.titulo-seccion{
-    font-size: 2rem;
-    font-weight: 400;
-    color:#7E57C2;
-   
-}
-
-.titulo-contenido{
+.titulo-seccion {
   font-size: 1.5rem;
   font-weight: 400;
-  color:#7E57C2;
- 
+  color: #7E57C2;
+
 }
 
-p{
-  font-size: 1.3rem;;
-}
-footer{
- 
-    background-color: #DBE1E0;
-    color: #515151;
-    padding: 2rem 0;
+.titulo-contenido {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #7E57C2;
+
 }
 
-.tarjetas-fondo div{ padding: 1em 1em 3px; margin-bottom: 1em; }
-.tarjetas-fondo div:nth-child(1){ background: #F3F9F8; }
-.tarjetas-fondo div:nth-child(2){ background: #FEEFE9; }
-
-a{
-  word-wrap: break-word;
+.parrafo {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-
-.texto-instruccion{
-  color:#007C32;
-  font-weight:500;
-}
-
-
-a.btn.btn-primary[aria-expanded="true"]{
-  background: red !important;
-}
-.accordion-button:not(.collapsed) {
-    color: #3b71ca;
-    background-color: #fff;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-}
-
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #D81B60;
-  border-color: #D81B60;
-}
-
-.fondo-texto{
-  
-  background: linear-gradient(45deg,
-       rgba(61, 90, 254, 1),
-       rgba(126, 87, 194, 1) 100%);
-}
-
-.border-primario{
-  border-color: #7E57C2;
-  
-}
-
-
-.titulo-modulo{
-  font-size: 1.75rem;
+.titulo-modulo {
+  font-size: 1.6rem;
   font-weight: 700;
   color: #0031ca;
   border-bottom: #D81B60 4px solid;
 }
 
 
-.adorno-titulo{
+.adorno-titulo {
   width: 100%;
   height: 4px;
-  background-color:#D81B60;
+  background-color: #D81B60;
 }
+
+@media screen and (min-width: 768px) {
+  .parrafo {
+    font-size: 1.3rem;
+  }
+
+  .titulo-seccion {
+    font-size: 2rem;
+  }
+
+  .titulo-modulo {
+    font-size: 3rem;
+
+  }
+}
+
+footer {
+
+  background-color: #DBE1E0;
+  color: #515151;
+  padding: 2rem 0;
+}
+
+.tarjetas-fondo div {
+  padding: 1em 1em 3px;
+  margin-bottom: 1em;
+}
+
+.tarjetas-fondo div:nth-child(1) {
+  background: #F3F9F8;
+}
+
+.tarjetas-fondo div:nth-child(2) {
+  background: #FEEFE9;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+
+.texto-instruccion {
+  color: #007C32;
+  font-weight: 500;
+}
+
+
+a.btn.btn-primary[aria-expanded="true"] {
+  background: red !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #3b71ca;
+  background-color: #fff;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #D81B60;
+  border-color: #D81B60;
+  font-size: 1.3rem;
+}
+
+.fondo-texto {
+
+  background: linear-gradient(45deg,
+      rgba(61, 90, 254, 1),
+      rgba(126, 87, 194, 1) 100%);
+}
+
+.border-primario {
+  border-color: #7E57C2;
+
+}
+
+#BtnUp{
+  position: fixed; bottom:50%; right: 16px;display:none ;
+}
+
