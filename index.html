@@ -9,11 +9,12 @@
   <!-- MDB icon 
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/colors.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/index.css" />
 </head>
@@ -42,6 +43,14 @@
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Módulo 2</a>
             </li>
+            <li class="nav-item float-end">
+              <button class="btn btn-floating btn-color" data-c="0" style="background-color:  #D81B60"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color: #3949AB;" data-c="1"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color: #00ACC1;" data-c="2"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color: #7CB342;" data-c="3"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color: #FFB300;" data-c="4"></button>
+              <button class="btn btn-floating  btn-color "  style="background-color: #263238;" data-c="5"></button>
+            </li>
           </ul>
         </div>
       </div>
@@ -54,8 +63,8 @@
       <div class="mask" style="
             background: linear-gradient(
               45deg,
-              rgba(61, 90, 254, 0.7),
-              rgba(126, 87, 194, 0.7) 100%
+              rgba(var(--degrado-inicio), 0.7),
+              rgba(var(--degrado-fin), 0.7) 100%
             );
           ">
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
@@ -567,7 +576,7 @@
       </section>
       <div>
         <a id="BtnUp" class="btn bg-primario text-white btn-lg btn-floating color-primario" href="#!" role="button">
-          <i class="fa-solid fa-up"></i>
+          <i class="fas fa-arrow-up-long "></i>
         </a></div>
     </main>
   </body>

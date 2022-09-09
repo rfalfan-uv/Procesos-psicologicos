@@ -12,27 +12,26 @@
 .nav-show {
 
   background: linear-gradient(45deg,
-      rgba(61, 90, 254, 1),
-      rgba(126, 87, 194, 1) 100%);
+  rgba(var(--degrado-inicio), 1),
+  rgba(var(--degrado-fin), 1) 100%);
 }
 
  
 
 .bg-primario {
-  background-color: #D81B60;
+  background-color: var(--primario);
   color: #fff;
 }
 
 .bg-primario:hover {
-  background-color: #F48FB1;
-  color: #000;
+  background-color: var(--primario-hover);  color: #000;
 }
 
  
 
 .bg-secundario {
-  background-color: #5E35B1;
-  color: #fff;
+  background-color: var(--secundario);
+    color: #fff;
 }
 
 .bg-secundario .titulo-seccion {
@@ -41,25 +40,25 @@
 
 
 .bg-temario {
-  background-color: #D1C4E9;
+  background-color:var(--fondo-secundario);
 }
 
 .bg-temario .titulo-seccion {
-  color: #7E57C2;
+  color: var(--subtitulos);
 }
 
 
 .titulo-seccion {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #7E57C2;
+  color: var(--subtitulos);
 
 }
 
 .titulo-contenido {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #7E57C2;
+  color: var(--subtitulos);
 
 }
 
@@ -71,15 +70,15 @@
 .titulo-modulo {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #0031ca;
-  border-bottom: #D81B60 4px solid;
+  color:  var(--secundario);
+  border-bottom: var(--primario) 4px solid;
 }
 
 
 .adorno-titulo {
   width: 100%;
   height: 4px;
-  background-color: #D81B60;
+  background-color: var(--primario);
 }
 
 @media screen and (min-width: 768px) {
@@ -141,20 +140,20 @@ a.btn.btn-primary[aria-expanded="true"] {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: #D81B60;
-  border-color: #D81B60;
+  color: var(--primario);
+  border-color: var(--primario);
   font-size: 1.3rem;
 }
 
 .fondo-texto {
 
   background: linear-gradient(45deg,
-      rgba(61, 90, 254, 1),
-      rgba(126, 87, 194, 1) 100%);
+  rgba(var(--degrado-inicio), 1),
+  rgba(var(--degrado-fin), 1) 100%);
 }
 
 .border-primario {
-  border-color: #7E57C2;
+  border-color: var(--subtitulos);
 
 }
 
