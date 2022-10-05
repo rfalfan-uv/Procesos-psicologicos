@@ -5,6 +5,32 @@
   }
 }
 
+.uv-title {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  text-rendering: auto !important;
+  -webkit-font-smoothing: auto !important;
+  -webkit-tap-highlight-color: black !important;
+  padding: 0 8;
+}
+
+.uv-title {
+  /* margin: 0 0 12px 0; */
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  background-color: #0d47a1;
+  /* padding: 0; */
+}
+
+.uv-title span{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .navbar .nav-link {
   color: #fff !important;
 }
