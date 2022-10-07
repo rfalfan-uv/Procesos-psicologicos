@@ -1,11 +1,11 @@
 :root{
-    --primario:#D81B60;
-    --primario-hover:#F48FB1;    
-    --secundario:#5E35B1;
-    --fondo-secundario:#D1C4E9;
+    --primario:#6A1B9A;
+    --primario-hover:#EA80FC;    
+    --secundario:#9575CD;
+    --fondo-secundario:#E1BEE7;
     --subtitulos:#7E57C2;
-    --degrado-inicio:61, 90, 254;
-    --degrado-fin:126, 87, 194;
+    --degrado-inicio:106,27,154;
+    --degrado-fin:149, 117, 205;
     
 
 }
