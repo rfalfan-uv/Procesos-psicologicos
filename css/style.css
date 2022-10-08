@@ -17,6 +17,11 @@
   -webkit-tap-highlight-color: black !important;
   padding: 0 8;
 }
+a.navbar-brand {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
 
 .uv-title {
   /* margin: 0 0 12px 0; */
@@ -32,6 +37,8 @@
 }
 
 .navbar .nav-link {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
   color: #fff !important;
 }
 
@@ -69,7 +76,8 @@
 
 
 .bg-temario {
-  background-color:var(--fondo-secundario);
+  background-color:var(--secundario);
+  color:#fff;
 }
 
 .bg-temario .titulo-seccion {
