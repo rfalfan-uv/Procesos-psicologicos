@@ -63,6 +63,16 @@ a.navbar-brand {
   background-color: var(--primario-hover);  color: #000;
 }
 
+.bg-primario.active{
+  background-color: var(--primario-hover);
+    color: #000;
+}
+
+.bg-primario[aria-expanded="true"] {
+  background-color: var(--primario-hover);
+  color: #000;
+}
+
  
 
 .bg-secundario {
@@ -81,8 +91,9 @@ a.navbar-brand {
 }
 
 .bg-temario .titulo-seccion {
-  color: var(--subtitulos);
+  color:#fff;
   font-family: 'Fira Sans', sans-serif;
+
 }
 
 
@@ -130,6 +141,10 @@ a.navbar-brand {
   height: 4px;
   background-color: var(--primario);
   font-family: 'Fira Sans', sans-serif;
+}
+
+.icono{
+  color:var(--secundario);
 }
 
 @media screen and (min-width: 768px) {
@@ -278,11 +293,7 @@ a.btn.btn-primary[aria-expanded="true"] {
   background: red !important;
 }
 
-.accordion-button:not(.collapsed) {
-  color: #3b71ca;
-  background-color: #fff;
-  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-}
+
 
 
 .nav-tabs .nav-item.show .nav-link,
@@ -311,3 +322,19 @@ a.btn.btn-primary[aria-expanded="true"] {
 .btn{
   text-transform: none;
 }
+
+.accordion-button:after {
+  content: '\f106';
+  font: var(--fa-font-solid);
+  background-image: none;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed):after {
+  
+    background-image: none;
+    
+  
+}
+
+ 
