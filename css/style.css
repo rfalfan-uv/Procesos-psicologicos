@@ -288,6 +288,9 @@ a {
   font-weight: 700;
 }
 
+.color4{
+  background-color: var(--fondo-secundario);
+}
 
 a.btn.btn-primary[aria-expanded="true"] {
   background: red !important;
