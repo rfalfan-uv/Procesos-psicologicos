@@ -86,8 +86,8 @@ a.navbar-brand {
 
 
 .bg-temario {
-  background-color:var(--secundario);
-  color:#fff;
+  background-color:var(--fondo-secundario);
+  color:#000;
 }
 
 .bg-temario .titulo-seccion {
@@ -119,7 +119,7 @@ a.navbar-brand {
 
 .parrafo {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -159,6 +159,9 @@ a.navbar-brand {
   .titulo-modulo {
     font-size: 3rem;
 
+  }
+  .btn{
+    font-size: 1.2rem;
   }
 }
 
@@ -326,6 +329,10 @@ a.btn.btn-primary[aria-expanded="true"] {
   text-transform: none;
 }
 
+.accordion-button{
+  font-family: 'Poppins', sans-serif;
+}
+
 .accordion-button:after {
   content: '\f106';
   font: var(--fa-font-solid);
@@ -340,4 +347,7 @@ a.btn.btn-primary[aria-expanded="true"] {
   
 }
 
+.boton-ventana{
+  padding-bottom: 100%;
+}
  
