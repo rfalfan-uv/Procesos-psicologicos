@@ -17,6 +17,16 @@
   -webkit-tap-highlight-color: black !important;
   padding: 0 8;
 }
+
+a {
+  color: var(--primario);
+}
+
+a:hover {
+  color: var(--primario-hover);
+  font-weight: 400;
+
+}
 a.navbar-brand {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
@@ -86,16 +96,25 @@ a.navbar-brand {
 
 
 .bg-temario {
-  background-color:var(--secundario);
-  color:#fff;
+  background-color:var(--fondo-secundario);
+  color:#000;
 }
 
 .bg-temario .titulo-seccion {
-  color:#fff;
+   
   font-family: 'Fira Sans', sans-serif;
 
 }
+.bg-fondo {
+  background-color: var(--fondo-secundario);
+  color: #000;
+}
 
+.bg-fondo .titulo-seccion {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+
+}
 
 .titulo-seccion {
   font-family: 'Fira Sans', sans-serif;
@@ -119,7 +138,7 @@ a.navbar-brand {
 
 .parrafo {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -235,46 +254,20 @@ footer {
 
 
 .swiper-slide:nth-child(1n) {
-
-  background-color: #F3F9F8;
-
+  background-color: #D1C4E9;;
 }
-
-
-
 .swiper-slide:nth-child(2n) {
-
-  background-color: #FEEFE9;
-
+  background-color: #C5CAE9;
 }
-
-
-
-.swiper-slide:nth-child(3n) {
-
-  background-color: #EBF7FF;
-
-}
-
-
-
-.swiper-slide:nth-child(4n) {
-
-  background-color: #FFFDEB;
-
-}
-
-.contenedor-swip {
-  padding: 0 3em;
-}
-.cont-num-swip{ position: absolute; right: 3em; bottom: 0; color: #A74E98; font-weight: bold; }
-
-
+.swiper-slide:nth-child(3n) {background-color:#F8BBD0;}
+.swiper-slide:nth-child(4n) {background-color:#B3E5FC;}
+.contenedor-swip { padding: 0 3em;}
+.cont-num-swip{ position: absolute; right: 3em; bottom: 0; color: var(--secundario); font-weight: bold; }
 .tarjetas-fondo div{ padding: 1em 1em 3px; margin-bottom: 1em; }
-.tarjetas-fondo div:nth-child(1){ background: #F3F9F8; }
-.tarjetas-fondo div:nth-child(2){ background: #FEEFE9; }
-.tarjetas-fondo div:nth-child(3){ background: #EBF7FF; }
-.tarjetas-fondo div:nth-child(4){ background: #FFFDEB; }
+.tarjetas-fondo div:nth-child(1){ background: #D1C4E9; }
+.tarjetas-fondo div:nth-child(2){ background: #C5CAE9; }
+.tarjetas-fondo div:nth-child(3){ background: #F8BBD0; }
+.tarjetas-fondo div:nth-child(4){ background: #B3E5FC; }
 
 a {
   word-wrap: break-word;
