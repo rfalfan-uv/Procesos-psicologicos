@@ -179,6 +179,9 @@ a.navbar-brand {
     font-size: 3rem;
 
   }
+  .btn{
+    font-size: 1.2rem;
+  }
 }
 
 footer {
@@ -281,6 +284,9 @@ a {
   font-weight: 700;
 }
 
+.color4{
+  background-color: var(--fondo-secundario);
+}
 
 a.btn.btn-primary[aria-expanded="true"] {
   background: red !important;
@@ -316,6 +322,10 @@ a.btn.btn-primary[aria-expanded="true"] {
   text-transform: none;
 }
 
+.accordion-button{
+  font-family: 'Poppins', sans-serif;
+}
+
 .accordion-button:after {
   content: '\f106';
   font: var(--fa-font-solid);
@@ -330,4 +340,7 @@ a.btn.btn-primary[aria-expanded="true"] {
   
 }
 
+.boton-ventana{
+  padding-bottom: 100%;
+}
  
